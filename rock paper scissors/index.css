@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxk;
+}
+
+body{
+    background-image:linear-gradient(#00e1ff,#0d0c28)
+}
+
+header{
+    background-color: snow;
+    padding: 20px;
+}
+
+header > h1{
+    color: #09cae3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-board{
+    margin:20px auto;
+    border: 3px solid white;
+    width: 200px;
+    color: snow;
+    text-align: center;
+    font-size: 44px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: relative;
+}
+
+.badge {
+    background-color: rgb(25, 25, 59);
+    color: snow;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+img{
+    border: 4px solid snow;
+    border-radius: 50%;
+}
+
+#user-label{
+position: absolute;
+top: 30px;
+left: -30px;
+}
+
+#computer-label{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    }
+
+#result1,#result2{
+    font-size: 40px;
+    color: snow;
+}
+
+#result1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#result2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.choices{
+    margin-top: 50px 0;
+    text-align: center;
+}
+
+.choice{
+   
+    padding: 10px;
+    margin: 0 20px;
+    display: inline-block;
+    transition: all 1s ease;
+}
+ 
+img:hover{
+    cursor: pointer;
+    border:  4px solid #110b37;
+}
+
+#action-message{
+
+    text-align: center;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.green-glow{
+    border: 4px #2ceb3c !important ;
+    box-shadow: 0 0 10px #53ff61;
+    border-radius: 50%;
+}
+
+.red-glow{
+    border: 4px #ee2a2a;
+    box-shadow: 0 0 10px #f92121;
+    border-radius: 50%;
+}
+
+.grey-glow{
+    border: 4px #acacac;
+    box-shadow: 0 0 10px rgb(193, 191, 191);
+    border-radius: 50%;
+}
